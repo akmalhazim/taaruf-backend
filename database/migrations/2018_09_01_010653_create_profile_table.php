@@ -17,6 +17,7 @@ class CreateProfileTable extends Migration
             $table->string('user_id');
             $table->string('name');
             $table->string('from');
+            $table->string('quote',255);
             $table->string('profile_picture',500);
             $table->string('background_url',500);
             $table->timestamps();
